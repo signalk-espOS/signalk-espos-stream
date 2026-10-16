@@ -49,6 +49,10 @@ updates:
       # engines.node is >=22; @types/node must not drift ahead of it.
       - dependency-name: "@types/node"
         update-types: ["version-update:semver-major"]
+      # typescript-eslint's peer range stops below 6.1, so npm ci refuses
+      # anything newer. Lift this once typescript-eslint supports TS 7.
+      - dependency-name: typescript
+        versions: [">=6.1.0"]
 
   - package-ecosystem: github-actions
     directory: "/"
