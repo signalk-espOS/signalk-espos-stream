@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.3 (2026-10-17)
+
+<!-- Release notes generated using configuration in .github/release.yml at master -->
+
+## What's Changed
+### 📦 Dependencies
+* build(deps): bump typebox from 1.3.34 to 1.3.36 by @dependabot[bot] in https://github.com/signalk-espOS/signalk-espos-stream/pull/41
+### Other
+* build(image): label the image with its source and licence by @dirkwa in https://github.com/signalk-espOS/signalk-espos-stream/pull/37
+
+
+**Full Changelog**: https://github.com/signalk-espOS/signalk-espos-stream/compare/v0.1.2...v0.1.3
+
 ## 0.1.2 (2026-10-05)
 
 <!-- Release notes generated using configuration in .github/release.yml at master -->
